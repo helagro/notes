@@ -1,0 +1,69 @@
+/* line width */
+body {
+  --file-line-width: 900px;
+}
+
+/* https://forum.obsidian.md/t/css-hide-comments-in-live-preview/47108/2 */
+.cm-line:not(.cm-active) .cm-comment {
+  /* color: #545454 !important; */
+}
+
+/* -------------------------- COLORS ------------------------- */
+
+.cm-strong,
+strong {
+  font-weight: 600;
+  color: #c8261a;
+}
+
+.cm-highlight {
+  background-color: #f7cf5b;
+}
+
+.cm-em,
+em {
+  color: #d05b09;
+}
+
+/* ----------------------- STATUS BAR ----------------------- */
+
+.status-bar-item {
+  display: none;
+}
+
+.plugin-sync {
+  display: inline-flex;
+}
+
+/* -------------------------- EMBEDDINGS ------------------------- */
+
+.embed-title {
+  display: none !important;
+}
+
+h2 {
+  display: none !important;
+}
+
+.markdown-embed {
+  padding-left: 0;
+  border-left: 0;
+  position: relative;
+  left: -1.5em;
+}
+
+.markdown-embed ul {
+  padding-inline-start: 1.5em;
+}
+
+.markdown-rendered * {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* -------------------------- TABS ------------------------- */
+
+.workspace-tab-header:has(.mod-pinned) {
+  max-width: 5em !important;
+  --tab-curve: 0;
+}

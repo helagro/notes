@@ -56,8 +56,7 @@ $RECYCLE.BIN/
 !.obsidian/snippets/*
 
 !i/
-!i/*
-i/*/
+i/*
 !i/public
 !i/public/*
 
